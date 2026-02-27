@@ -1,0 +1,39 @@
+run_dirs=codex/runs/20260225_214900_seed100_cfgstdsocial_t50000_target136_j12_main;codex/runs/20260226_103743_campaign_stream_seed100_to_499
+finished_runs_analyzed=25
+
+[full_social]
+count=8
+time_found_min=3284.68
+time_found_median=15964.35
+time_found_max=45072.10
+repetitions_median=1376.5
+rounds_median=28.0
+operator_before_combine_136={'Multiway': 3, 'Vertex cover': 5}
+Vertex cover_selected_avg=477.00
+Vertex cover_improvements_avg=1.25
+Vertex cover_improvements_total=10
+Node separator_selected_avg=544.12
+Node separator_improvements_avg=0.38
+Node separator_improvements_total=3
+Multiway_selected_avg=486.50
+Multiway_improvements_avg=1.50
+Multiway_improvements_total=12
+
+[full_standard]
+count=17
+time_found_min=2494.18
+time_found_median=9218.23
+time_found_max=27351.20
+repetitions_median=746.0
+rounds_median=15.0
+operator_before_combine_136={'Vertex cover': 11, 'Multiway': 3, 'Node separator': 3}
+Vertex cover_selected_avg=320.47
+Vertex cover_improvements_avg=2.53
+Vertex cover_improvements_total=43
+Node separator_selected_avg=310.18
+Node separator_improvements_avg=0.29
+Node separator_improvements_total=5
+Multiway_selected_avg=339.12
+Multiway_improvements_avg=0.71
+Multiway_improvements_total=12
+
