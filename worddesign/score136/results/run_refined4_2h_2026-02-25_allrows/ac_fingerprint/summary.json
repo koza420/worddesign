@@ -1,0 +1,54 @@
+{
+  "target_len": 136,
+  "n_candidate_rows": 3053,
+  "n_sampled": 3053,
+  "n_unique_ac_points": 5,
+  "n_unique_hash_classes": 5,
+  "n_orbit_classes": 2,
+  "all_points_have_mirror": false,
+  "top_ac_points": [
+    {
+      "A": 172,
+      "C": 268,
+      "size": 1782
+    },
+    {
+      "A": 172,
+      "C": 300,
+      "size": 1213
+    },
+    {
+      "A": 268,
+      "C": 172,
+      "size": 35
+    },
+    {
+      "A": 244,
+      "C": 372,
+      "size": 21
+    },
+    {
+      "A": 372,
+      "C": 244,
+      "size": 2
+    }
+  ],
+  "orbit_class_counts": [
+    {
+      "orbit_canon_A": 172,
+      "orbit_canon_C": 268,
+      "orbit_canon_G": 276,
+      "orbit_canon_T": 372,
+      "size": 1817,
+      "class": "B"
+    },
+    {
+      "orbit_canon_A": 172,
+      "orbit_canon_C": 244,
+      "orbit_canon_G": 300,
+      "orbit_canon_T": 372,
+      "size": 1236,
+      "class": "A"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "target_len": 136,
+  "n_candidate_rows": 5397,
+  "n_sampled": 600,
+  "n_unique_ac_points": 6,
+  "n_unique_hash_classes": 6,
+  "n_orbit_classes": 2,
+  "all_points_have_mirror": false,
+  "top_ac_points": [
+    {
+      "A": 172,
+      "C": 300,
+      "size": 335
+    },
+    {
+      "A": 172,
+      "C": 268,
+      "size": 245
+    },
+    {
+      "A": 268,
+      "C": 172,
+      "size": 9
+    },
+    {
+      "A": 244,
+      "C": 372,
+      "size": 8
+    },
+    {
+      "A": 372,
+      "C": 276,
+      "size": 2
+    },
+    {
+      "A": 300,
+      "C": 172,
+      "size": 1
+    }
+  ],
+  "orbit_class_counts": [
+    {
+      "orbit_canon_A": 172,
+      "orbit_canon_C": 244,
+      "orbit_canon_G": 300,
+      "orbit_canon_T": 372,
+      "size": 344,
+      "class": "A"
+    },
+    {
+      "orbit_canon_A": 172,
+      "orbit_canon_C": 268,
+      "orbit_canon_G": 276,
+      "orbit_canon_T": 372,
+      "size": 256,
+      "class": "B"
+    }
+  ]
+}
