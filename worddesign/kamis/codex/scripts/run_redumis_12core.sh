@@ -18,6 +18,8 @@ if [[ ! -x "$ROOT_DIR/deploy/redumis" ]]; then
   exit 1
 fi
 
+bash "$ROOT_DIR/codex/scripts/ensure_dna_metis.sh" "$INPUT_FILE"
+
 RUN_DIR="$ROOT_DIR/codex/runs/$RUN_ID"
 RESULTS_DIR="$RUN_DIR/results"
 LOGS_DIR="$RUN_DIR/logs"

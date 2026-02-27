@@ -192,3 +192,40 @@
 - Updated plots:
   - `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots/scatter_min_sum_size_ge_136.png`
   - `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots/scatter_136_style_size_ge_136.png`
+
+### 2026-02-27 11:49:30 UTC
+- Prepared export repository snapshot at `/tmp/worddesign` with all KaMIS worddesign artifacts under `worddesign/kamis`.
+- Created and pushed GitHub repository: `https://github.com/koza420/worddesign`.
+- Included run artifacts, scripts, analysis, modified source files, and input graph snapshot.
+- Note: GitHub accepted push but warned that `worddesign/kamis/test/dna_word_graph_8.metis` is ~93 MB (above recommended 50 MB).
+
+### 2026-02-27 14:13:12 UTC
+- Added reproducible METIS generator script:
+  - `codex/scripts/generate_dna_metis.py`
+- Generator matches existing KaMIS DNA graph definitions:
+  - vertex filter: GC count fixed at `n/2`, self reverse-complement Hamming distance `>= d`
+  - edge rule: incompatibility if `Hamming(w_i, w_j) < d` or `Hamming(w_i, reverse_complement(w_j)) < d`
+- Smoke tests:
+  - `n=4`: exact byte match with `test/dna_word_graph_4.metis`
+  - `n=6`: exact byte match with `test/dna_word_graph_6.metis`
+  - `n=8`: exact byte match with `test/dna_word_graph_8.metis`
+- Measured generation runtime for `n=8` on this machine:
+  - valid word generation: `0.19s`
+  - graph edge construction: `126.32s`
+  - METIS file write: `7.53s`
+
+### 2026-02-27 14:22:38 UTC
+- Added `codex/scripts/ensure_dna_metis.sh` and integrated it into launch scripts so METIS generation is done once before scheduling seeds:
+  - `codex/scripts/run_redumis_12core.sh`
+  - `codex/scripts/run_campaign_redumis.sh`
+  - `test/run_batch8.sh`
+  - `test/run_batch_online.sh`
+- Behavior:
+  - default `METIS_GENERATE=auto`: generate only if missing
+  - supports `METIS_GENERATE=always|never`
+  - lock-based guard prevents duplicate concurrent generation for the same file
+  - generation is outside all `parallel`/seed loops to avoid multiplicative runtime overhead.
+- Smoke checks:
+  - existing `test/dna_word_graph_8.metis` is reused without regeneration
+  - missing `/tmp/dna_word_graph_4.metis` is generated correctly (`88 364`)
+  - all modified shell scripts pass `bash -n` syntax validation.

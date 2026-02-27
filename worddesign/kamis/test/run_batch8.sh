@@ -1,14 +1,19 @@
 #!/bin/bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Set the base filename for the output
-output_base="results8/output_8"
+output_base="$SCRIPT_DIR/results8/output_8"
 
 # Set the input file and config
-input_file="dna_word_graph_8.metis"
+input_file="$SCRIPT_DIR/dna_word_graph_8.metis"
 config="full_standard"
 time_limit=24000
 kernelization="full"
 red_thres=5000
+
+bash "$SCRIPT_DIR/../codex/scripts/ensure_dna_metis.sh" "$input_file"
 
 # Function to run the command for each seed
 run_command() {
@@ -21,7 +26,7 @@ run_command() {
     echo "Using config: ${config}, time_limit: ${time_limit}, kernelization: ${kernelization}, red_thres: ${red_thres}"
 
     # Run the redumis command and redirect output and error to log file
-    ../deploy/redumis "$input_file" --config="$config" --time_limit="$time_limit" --seed="$seed" --kernelization="$kernelization" --red_thres="$red_thres" --output="$output_file" > "$log_file" 2>&1
+    "$SCRIPT_DIR/../deploy/redumis" "$input_file" --config="$config" --time_limit="$time_limit" --seed="$seed" --kernelization="$kernelization" --red_thres="$red_thres" --output="$output_file" > "$log_file" 2>&1
 }
 
 # Export the variables for use in parallel execution

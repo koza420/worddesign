@@ -28,6 +28,8 @@ if [[ ! -x "$ROOT_DIR/deploy/redumis" ]]; then
   exit 1
 fi
 
+bash "$ROOT_DIR/codex/scripts/ensure_dna_metis.sh" "$INPUT_FILE"
+
 campaign_id="$(date -u +%Y%m%d_%H%M%S)_campaign_stream_seed${SEED_START}_to_${SEED_END}"
 campaign_dir="$ROOT_DIR/codex/runs/$campaign_id"
 results_dir="$campaign_dir/results"
@@ -167,4 +169,3 @@ if [[ -f "$approach_file" ]]; then
 fi
 
 echo "Campaign done. Log: $campaign_log"
-
