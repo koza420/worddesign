@@ -14,12 +14,12 @@ Main run folder:
 
 Latest merged inventory (including backfilled legacy `results8` and `results8_online`):
 
-- total files analyzed: `658`
-- files with size `>=136`: `354`
+- total files analyzed: `1078`
+- files with size `>=136`: `445`
 - by method:
-  - `full_standard`: `400` total, `291` at `>=136`
+  - `full_standard`: `510` total, `358` at `>=136`
   - `full_social`: `58` total, `53` at `>=136`
-  - `online`: `200` total, `10` at `>=136`
+  - `online`: `510` total, `34` at `>=136`
 
 Key outputs:
 

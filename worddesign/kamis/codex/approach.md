@@ -412,3 +412,18 @@
 - Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
 - Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
 - Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-03-01 11:03:43 UTC
+- Synced latest KaMIS worddesign artifacts into export repo `/tmp/worddesign_repo` under `worddesign/kamis`:
+  - refreshed `codex/runs_20260226_103743_campaign_stream_seed100_to_499` snapshot,
+  - refreshed `codex/scripts` and `codex/approach.md`,
+  - updated `worddesign/kamis/README.md` and top-level `README.md` with latest results summary.
+- Created commit in export repo: `1b591d6` (`Update KaMIS worddesign snapshot with latest campaign results and plots`).
+- Push to `origin main` failed due transient DNS/network resolution error for `github.com`.
+
+### 2026-03-01 11:06:12 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
