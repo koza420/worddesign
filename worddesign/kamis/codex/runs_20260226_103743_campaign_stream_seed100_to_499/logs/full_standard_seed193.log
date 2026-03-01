@@ -1645,3 +1645,36 @@ Round:				32
 Best solution:			128
 Time:				18650.6
 
+
+Round:				33
+Best solution:			128
+Time:				19111.4
+
+1613		Vertex cover	136	136	19273.8
+1613		Combine reduction	136	136	19289.1
+
+		Statistics
+==========================================
+Total time:			19294
+Evolution time:			19289.1
+Number of rounds:		33
+Number of repetitions:		1613
+
+Operator	Times selected	Improvements	Avg. time	Avg. improv
+--------------------------------------------------------------------------------
+Vertex cover	515		3		12.0798	8
+Node separator	558		0		11.5421	0
+Multiway	540		0		7.55542	0
+
+		Best
+==========================================
+Size:				136
+Time found:			19289.1
+Operator:			Combine reduction
+Repetition number:		1613
+Round number:			33
+
+writing independent set to /home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/results/full_standard_seed193.txt ... 
+checking solution ...
+done ...
+Independent set has size 136

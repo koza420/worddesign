@@ -229,3 +229,186 @@
   - existing `test/dna_word_graph_8.metis` is reused without regeneration
   - missing `/tmp/dna_word_graph_4.metis` is generated correctly (`88 364`)
   - all modified shell scripts pass `bash -n` syntax validation.
+
+### 2026-02-27 22:39:21 UTC
+- Interrupted active mixed campaign workers and checkpointed standard progress:
+  - run: `20260226_103743_campaign_stream_seed100_to_499`
+  - last completed `full_standard` seed: `233`
+  - checkpoint file: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/meta/restart_checkpoint_standard.env`
+- Relaunched campaign as **social-only** at full utilization:
+  - process: `timeout 48h parallel -j 12`
+  - command list: `.../meta/resume_social_commands.txt` (`400` pending social jobs)
+- Per user correction, plot trigger changed to social criterion:
+  - watcher script: `.../meta/watch_social3_then_plot.sh`
+  - condition: first `3` `full_social_seed*.txt` outputs exist
+  - output log: `.../meta/plot_after_social3.log`
+  - trigger process runs under `timeout 48h` to stay detached reliably.
+
+### 2026-02-27 19:43:46 UTC
+- Analysis+plot run complete for `codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 00:26:43 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:10:16 UTC
+- Analysis+plot run complete for `codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:21:00 UTC
+- Analysis+plot run complete for `codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:21:19 UTC
+- Analysis+plot run complete for `codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:26:48 UTC
+- Analysis+plot run complete for `codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:44:14 UTC
+- Started online batch `20260228_104414_online_seed100_to_100` in `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499`.
+- Settings: seeds=`100..100`, jobs=`1`, time_limit=`30`, target_size=`136`.
+- Prepared online jobs: `1` (skipped existing: `0`).
+
+### 2026-02-28 10:44:55 UTC
+- Online batch `20260228_104414_online_seed100_to_100` finished with parallel exit code `0`.
+- Log: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/online_campaign.log`.
+
+### 2026-02-28 10:46:05 UTC
+- Started online batch `20260228_104605_online_seed101_to_102` in `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499`.
+- Settings: seeds=`101..102`, jobs=`2`, time_limit=`10`, target_size=`136`.
+- Prepared online jobs: `2` (skipped existing: `0`).
+
+### 2026-02-28 10:46:27 UTC
+- Online batch `20260228_104605_online_seed101_to_102` finished with parallel exit code `0`.
+- Log: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/online_campaign.log`.
+
+### 2026-02-28 10:46:54 UTC
+- Started online batch `20260228_104654_online_seed100_to_299` in `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499`.
+- Settings: seeds=`100..299`, jobs=`8`, time_limit=`36000`, target_size=`136`.
+- Prepared online jobs: `197` (skipped existing: `3`).
+
+### 2026-02-28 10:47:31 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `112`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 10:47:54 UTC
+- Implemented OnlineMIS early-stop target support end-to-end:
+  - Added `--target_size` parsing in `app/parse_parameters_omis.h`.
+  - Added target-reached break checks in `lib/mis/ils/online_ils.cpp` so online runs stop once size >= target.
+  - Rebuilt and deployed `deploy/online_mis` from a fresh CMake build tree in `/tmp/kamis_build_online`.
+- Added new launcher script `codex/scripts/run_online_8core.sh`:
+  - default 8-way GNU parallel,
+  - schedules `online_mis --adaptive_greedy --target_size=136`,
+  - writes outputs as `results/online_seed<seed>.txt` and logs as `logs/online_seed<seed>.log`,
+  - skips already completed online seeds,
+  - maintains metadata under `run_dir/meta`.
+- Updated plotting script `codex/scripts/plot_scatter.R`:
+  - online config now rendered as triangles (`pch=24`),
+  - legend now includes Standard/Social/Online (with per-group mean A,C) plus LLM heuristic crosses.
+- Smoke tests completed:
+  - binary smoke: `online_mis ... --target_size=1` completed in ~12s and wrote output/log,
+  - launcher smoke: `run_online_8core.sh` for seed `100` (30s) completed successfully,
+  - additional smoke for seeds `101..102` (10s) completed successfully.
+- Full online campaign launched detached alongside ongoing 12-core social run:
+  - run dir: `codex/runs/20260226_103743_campaign_stream_seed100_to_499`
+  - online settings: seeds `100..299`, jobs `8`, target `136`, time_limit `36000`, wallclock `48h`
+  - existing online outputs before launch: `3` (seeds 100..102)
+  - queued this launch: `197` (for total target of 200 online datapoints)
+  - process ids: launcher `3886929`, timeout+parallel parent `3886967`.
+- Refreshed analysis/plots at target `112` to verify online ingestion + triangle rendering with current partial outputs.
+
+### 2026-02-28 10:48:25 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 20:02:58 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 22:12:52 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-02-28 22:13:01 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `112`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-03-01 10:49:13 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-03-01 10:58:33 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.
+
+### 2026-03-01 10:58:48 UTC
+- Stopped the detached online batch for seeds 100..299 to avoid duplicate compute before backfill.
+- Added helper script `codex/scripts/backfill_legacy_results8.sh` to import compatible legacy outputs into an active campaign.
+- Backfilled legacy results into campaign `20260226_103743_campaign_stream_seed100_to_499`:
+  - standard copied: `279` (existing skipped: `121`)
+  - online copied: `180` (existing skipped: `20`)
+  - source directories: `test/results8` and `test/results8_online`.
+- Wrote backfill report: `codex/runs/20260226_103743_campaign_stream_seed100_to_499/meta/backfill_legacy_results8_20260301_105817.txt`.
+- Refreshed analysis+plots at target size `136` after backfill.
+- Campaign inventory after backfill:
+  - `full_standard`: `400` outputs (`291` with size >= 136)
+  - `online`: `200` outputs (`10` with size >= 136)
+  - `full_social`: `58` outputs currently complete (social run still active).
+
+### 2026-03-01 11:00:04 UTC
+- Stopped active social/standard campaign execution on user request.
+- Terminated campaign scheduler/process tree for run `20260226_103743_campaign_stream_seed100_to_499` (including prior `parallel -j 12` parent and worker jobs).
+- Verified post-stop process state:
+  - active `full_social` redumis workers: `0`
+  - active `full_standard` redumis workers: `0`
+  - active `parallel -j 12` scheduler parents: `0`
+
+### 2026-03-01 11:00:41 UTC
+- Analysis+plot run complete for `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499` with target size `136`.
+- Metrics: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/solution_metrics.csv`.
+- Summary: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/summary.txt`.
+- Plots: `/home/vandriel/Documents/GitHub/KaMIS/codex/runs/20260226_103743_campaign_stream_seed100_to_499/analysis/plots`.
+- Fingerprint overlay source: `/home/vandriel/Documents/GitHub/EoH_network/examples/user_worddesign/evaluation/active_136_search/plots_136_GPT_optuna_refined4_2h_2026-02-25/ac_fingerprint/ac_fingerprint_samples.csv`.

@@ -46,6 +46,19 @@ if (nzchar(fingerprint_csv)) {
 num_zeros <- d$count_min1
 num_ones <- d$count_min2
 minimal_sums <- d$min_sum
+configs <- if ("config" %in% names(d)) d$config else rep("unknown", nrow(d))
+is_social <- grepl("social", configs, ignore.case = TRUE)
+is_online <- grepl("online", configs, ignore.case = TRUE)
+is_standard <- !(is_social | is_online)
+# Standard: circle (pch 21), Social: square (pch 22), Online: triangle (pch 24)
+pch_by_config <- ifelse(is_social, 22, ifelse(is_online, 24, 21))
+
+mean_a_std <- if (any(is_standard)) mean(d$a_count[is_standard]) else NA_real_
+mean_c_std <- if (any(is_standard)) mean(d$c_count[is_standard]) else NA_real_
+mean_a_soc <- if (any(is_social)) mean(d$a_count[is_social]) else NA_real_
+mean_c_soc <- if (any(is_social)) mean(d$c_count[is_social]) else NA_real_
+mean_a_onl <- if (any(is_online)) mean(d$a_count[is_online]) else NA_real_
+mean_c_onl <- if (any(is_online)) mean(d$c_count[is_online]) else NA_real_
 
 # Viridis-like palette for better contrast/readability.
 pal <- grDevices::hcl.colors(100, "viridis")
@@ -63,8 +76,8 @@ png(plot1, width = 1400, height = 1000, res = 130)
 plot(
   num_zeros,
   num_ones,
-  col = cols,
-  pch = 21,
+  col = "#2A2A2A",
+  pch = pch_by_config,
   bg = cols,
   lwd = 0.7,
   cex = 1.75,
@@ -74,8 +87,9 @@ plot(
 )
 grid(col = "#CCCCCC", lwd = 0.8)
 if (!is.null(fp_points) && nrow(fp_points) > 0) {
-  points(fp_points$x, fp_points$y, pch = 4, col = "black", cex = 2.7, lwd = 2.8)
-  legend("bottomleft", legend = "Fingerprint classes", pch = 4, col = "black", pt.cex = 1.8, bty = "n")
+  points(fp_points$x, fp_points$y, pch = 4, col = "black", cex = 1.75, lwd = 2.5)
+  fp_labels <- sprintf("(%d,%d)", as.integer(round(fp_points$x)), as.integer(round(fp_points$y)))
+  text(fp_points$x, fp_points$y, labels = fp_labels, pos = 4, offset = 0.6, cex = 0.9, col = "black")
 }
 legend(
   "topright",
@@ -85,6 +99,42 @@ legend(
   cex = 0.8,
   bg = "white"
 )
+shape_legend <- character(0)
+shape_pch <- integer(0)
+shape_lwd <- numeric(0)
+if (any(is_standard)) {
+  shape_legend <- c(shape_legend, sprintf("Standard (mean A=%.1f, C=%.1f)", mean_a_std, mean_c_std))
+  shape_pch <- c(shape_pch, 21)
+  shape_lwd <- c(shape_lwd, 1.0)
+}
+if (any(is_social)) {
+  shape_legend <- c(shape_legend, sprintf("Social (mean A=%.1f, C=%.1f)", mean_a_soc, mean_c_soc))
+  shape_pch <- c(shape_pch, 22)
+  shape_lwd <- c(shape_lwd, 1.0)
+}
+if (any(is_online)) {
+  shape_legend <- c(shape_legend, sprintf("Online (mean A=%.1f, C=%.1f)", mean_a_onl, mean_c_onl))
+  shape_pch <- c(shape_pch, 24)
+  shape_lwd <- c(shape_lwd, 1.0)
+}
+if (!is.null(fp_points) && nrow(fp_points) > 0) {
+  shape_legend <- c(shape_legend, "LLM heuristic")
+  shape_pch <- c(shape_pch, 4)
+  shape_lwd <- c(shape_lwd, 2.5)
+}
+if (length(shape_legend) > 0) {
+  legend(
+    "bottomleft",
+    legend = shape_legend,
+    pch = shape_pch,
+    pt.bg = "white",
+    col = "#2A2A2A",
+    pt.cex = 1.1,
+    pt.lwd = shape_lwd,
+    cex = 0.9,
+    bg = "white"
+  )
+}
 dev.off()
 
 plot2 <- file.path(output_dir, sprintf("scatter_136_style_size_ge_%d.png", target_size))
@@ -102,7 +152,7 @@ plot(
   num_zeros,
   num_ones,
   col = "#2A2A2A",
-  pch = 21,
+  pch = pch_by_config,
   bg = cols,
   cex = 1.8,
   lwd = 0.8,
@@ -118,8 +168,22 @@ axis(1, at = seq(180, 280, by = 20))
 axis(2, at = seq(180, 280, by = 20), las = 1)
 grid(col = "#A9A9A9", lwd = 0.8)
 if (!is.null(fp_points) && nrow(fp_points) > 0) {
-  points(fp_points$x, fp_points$y, pch = 4, col = "black", cex = 2.9, lwd = 2.9)
-  legend("bottomleft", legend = "Fingerprint classes", pch = 4, col = "black", pt.cex = 1.8, bty = "n")
+  points(fp_points$x, fp_points$y, pch = 4, col = "black", cex = 1.8, lwd = 2.6)
+  fp_labels <- sprintf("(%d,%d)", as.integer(round(fp_points$x)), as.integer(round(fp_points$y)))
+  text(fp_points$x, fp_points$y, labels = fp_labels, pos = 4, offset = 0.6, cex = 0.9, col = "black")
+}
+if (length(shape_legend) > 0) {
+  legend(
+    "bottomleft",
+    legend = shape_legend,
+    pch = shape_pch,
+    pt.bg = "white",
+    col = "#2A2A2A",
+    pt.cex = 1.1,
+    pt.lwd = shape_lwd,
+    cex = 0.9,
+    bg = "white"
+  )
 }
 
 x <- seq(0, 544, length.out = 100)
@@ -168,5 +232,5 @@ cat("Wrote plots:\n")
 cat("  ", plot1, "\n")
 cat("  ", plot2, "\n")
 if (!is.null(fp_points) && nrow(fp_points) > 0) {
-  cat("Fingerprint classes overlaid as crosses:", nrow(fp_points), "\n")
+  cat("LLM heuristic classes overlaid as crosses:", nrow(fp_points), "\n")
 }

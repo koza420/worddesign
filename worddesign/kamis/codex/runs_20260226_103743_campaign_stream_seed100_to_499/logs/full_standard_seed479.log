@@ -1,0 +1,2101 @@
+		Graph
+==========================================
+IO time:			3.0037
+Filename:			dna_word_graph_8.metis
+|-Nodes:			17440
+|-Edges:			18220192
+
+		Configuration
+==========================================
+Population size:		250
+Repetitions:			50
+Time limit:			36000
+---
+KaHIP mode:			0
+---
+Seed:				479
+Base imbalance:			0.03
+Random imbalance:		1
+---
+Tournament size:		2
+---
+Mutation rate:			10
+---
+Use Multiway-VC:		0
+Multiway blocks:		64
+---
+Apply all reductions:		1
+Reductions threshold:		5000
+---
+Insert threshold:		150
+Pool threshold:			200
+---
+ILS iterations:			15000
+---
+No. of partitions:		30
+No. of separators:		30
+No. of k-partitions:		30
+No. of k-separators:		30
+
+There are 0 degree 0 and 1 vertices left!
+block weight upper bound 4746
+Partition [Seed: 289, K: 2]
+block weight upper bound 6158
+Partition [Seed: 8173, K: 2]
+block weight upper bound 6220
+Partition [Seed: 5013, K: 2]
+block weight upper bound 7587
+Partition [Seed: 6761, K: 2]
+block weight upper bound 5859
+Partition [Seed: 9999, K: 2]
+block weight upper bound 7489
+Partition [Seed: 4544, K: 2]
+block weight upper bound 7584
+Partition [Seed: 5317, K: 2]
+block weight upper bound 4589
+Partition [Seed: 3308, K: 2]
+block weight upper bound 5025
+Partition [Seed: 4525, K: 2]
+block weight upper bound 4792
+Partition [Seed: 8215, K: 2]
+block weight upper bound 5149
+Partition [Seed: 2537, K: 2]
+block weight upper bound 4688
+Partition [Seed: 3050, K: 2]
+block weight upper bound 6968
+Partition [Seed: 6653, K: 2]
+block weight upper bound 6228
+Partition [Seed: 2591, K: 2]
+block weight upper bound 6040
+Partition [Seed: 7446, K: 2]
+block weight upper bound 6212
+Partition [Seed: 4953, K: 2]
+block weight upper bound 7288
+Partition [Seed: 3217, K: 2]
+block weight upper bound 4707
+Partition [Seed: 5938, K: 2]
+block weight upper bound 6298
+Partition [Seed: 6711, K: 2]
+block weight upper bound 6302
+Partition [Seed: 7982, K: 2]
+block weight upper bound 6110
+Partition [Seed: 5850, K: 2]
+block weight upper bound 7183
+Partition [Seed: 6942, K: 2]
+block weight upper bound 6168
+Partition [Seed: 5578, K: 2]
+block weight upper bound 6435
+Partition [Seed: 2820, K: 2]
+block weight upper bound 7116
+Partition [Seed: 4326, K: 2]
+block weight upper bound 5647
+Partition [Seed: 2723, K: 2]
+block weight upper bound 6721
+Partition [Seed: 4913, K: 2]
+block weight upper bound 5306
+Partition [Seed: 2865, K: 2]
+block weight upper bound 6917
+Partition [Seed: 9873, K: 2]
+block weight upper bound 6890
+Partition [Seed: 4037, K: 2]
+block weight upper bound 5032
+Separator [Seed: 8737, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 416
+Separator [Seed: 5937, K: 32, Size: 8563]
+block weight upper bound 248
+Separator [Seed: 1040, K: 54, Size: 8529]
+block weight upper bound 201
+Separator [Seed: 8660, K: 47, Size: 8585]
+block weight upper bound 165
+Separator [Seed: 6559, K: 59, Size: 8518]
+block weight upper bound 1647
+Separator [Seed: 1981, K: 9, Size: 6204]
+block weight upper bound 572
+Separator [Seed: 9376, K: 23, Size: 8252]
+block weight upper bound 403
+Separator [Seed: 1935, K: 37, Size: 8378]
+block weight upper bound 285
+Separator [Seed: 5468, K: 45, Size: 8341]
+block weight upper bound 3063
+Separator [Seed: 6835, K: 3, Size: 5660]
+block weight upper bound 3158
+Separator [Seed: 1694, K: 4, Size: 5564]
+block weight upper bound 367
+Separator [Seed: 812, K: 33, Size: 8566]
+block weight upper bound 375
+Separator [Seed: 6033, K: 34, Size: 8451]
+block weight upper bound 250
+Separator [Seed: 2267, K: 47, Size: 8538]
+block weight upper bound 228
+Separator [Seed: 2384, K: 50, Size: 8615]
+block weight upper bound 872
+Separator [Seed: 2963, K: 13, Size: 7849]
+block weight upper bound 738
+Separator [Seed: 9434, K: 16, Size: 8460]
+block weight upper bound 538
+Separator [Seed: 5541, K: 20, Size: 8488]
+block weight upper bound 1458
+Separator [Seed: 6315, K: 9, Size: 7738]
+block weight upper bound 205
+Separator [Seed: 1380, K: 46, Size: 8511]
+block weight upper bound 562
+Separator [Seed: 3450, K: 26, Size: 8670]
+block weight upper bound 598
+Separator [Seed: 4239, K: 22, Size: 8511]
+block weight upper bound 359
+Separator [Seed: 6250, K: 40, Size: 8396]
+block weight upper bound 224
+Separator [Seed: 2741, K: 49, Size: 8559]
+block weight upper bound 2738
+Separator [Seed: 8009, K: 5, Size: 7926]
+block weight upper bound 173
+Separator [Seed: 8888, K: 62, Size: 8534]
+block weight upper bound 2034
+Separator [Seed: 6808, K: 7, Size: 6496]
+block weight upper bound 612
+Separator [Seed: 1088, K: 24, Size: 8334]
+block weight upper bound 308
+Separator [Seed: 2201, K: 45, Size: 8462]
+block weight upper bound 272
+Separator [Seed: 8261, K: 35, Size: 8392]
+block weight upper bound 456
+Separator [Seed: 5102, K: 26, Size: 8266]
+0		Initial		70	70	238.584
+0		Initial		112	112	238.732
+
+Round:				1
+Best solution:			112
+Time:				259.502
+
+
+Round:				2
+Best solution:			112
+Time:				1126
+
+
+Round:				3
+Best solution:			112
+Time:				2013.04
+
+
+Round:				4
+Best solution:			112
+Time:				2871.75
+
+194		Vertex cover	120	120	3567.98
+
+Round:				5
+Best solution:			120
+Time:				3666.8
+
+
+Round:				6
+Best solution:			120
+Time:				4547.14
+
+
+Round:				7
+Best solution:			120
+Time:				5283.28
+
+
+Round:				8
+Best solution:			120
+Time:				6033.57
+
+
+Round:				9
+Best solution:			120
+Time:				6849.75
+
+block weight upper bound 6563
+Partition [Seed: 7067, K: 2]
+block weight upper bound 5320
+Partition [Seed: 2233, K: 2]
+block weight upper bound 6566
+Partition [Seed: 2968, K: 2]
+block weight upper bound 6130
+Partition [Seed: 6203, K: 2]
+block weight upper bound 5169
+Partition [Seed: 6756, K: 2]
+block weight upper bound 7145
+Partition [Seed: 9244, K: 2]
+block weight upper bound 7485
+Partition [Seed: 6966, K: 2]
+block weight upper bound 5503
+Partition [Seed: 4651, K: 2]
+block weight upper bound 7569
+Partition [Seed: 4558, K: 2]
+block weight upper bound 6014
+Partition [Seed: 1896, K: 2]
+block weight upper bound 5709
+Partition [Seed: 7302, K: 2]
+block weight upper bound 6172
+Partition [Seed: 1878, K: 2]
+block weight upper bound 6036
+Partition [Seed: 9469, K: 2]
+block weight upper bound 7349
+Partition [Seed: 7796, K: 2]
+block weight upper bound 6721
+Partition [Seed: 1333, K: 2]
+block weight upper bound 7144
+Partition [Seed: 8033, K: 2]
+block weight upper bound 4989
+Partition [Seed: 4804, K: 2]
+block weight upper bound 7538
+Partition [Seed: 4611, K: 2]
+block weight upper bound 6709
+Partition [Seed: 6643, K: 2]
+block weight upper bound 6047
+Partition [Seed: 5663, K: 2]
+block weight upper bound 6932
+Partition [Seed: 2141, K: 2]
+block weight upper bound 6842
+Partition [Seed: 2060, K: 2]
+block weight upper bound 5422
+Partition [Seed: 4916, K: 2]
+block weight upper bound 4880
+Partition [Seed: 1828, K: 2]
+block weight upper bound 7454
+Partition [Seed: 6899, K: 2]
+block weight upper bound 7350
+Partition [Seed: 5141, K: 2]
+block weight upper bound 7609
+Partition [Seed: 9423, K: 2]
+block weight upper bound 6618
+Partition [Seed: 9856, K: 2]
+block weight upper bound 4874
+Partition [Seed: 9394, K: 2]
+block weight upper bound 7332
+Partition [Seed: 3863, K: 2]
+block weight upper bound 6482
+Separator [Seed: 1270, K: 2, Size: 3928]
+block weight upper bound 5812
+Separator [Seed: 5021, K: 2, Size: 3928]
+block weight upper bound 5379
+Separator [Seed: 2134, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 3237, K: 2, Size: 3928]
+block weight upper bound 6391
+Separator [Seed: 7198, K: 2, Size: 3928]
+block weight upper bound 7085
+Separator [Seed: 2183, K: 2, Size: 3928]
+block weight upper bound 6043
+Separator [Seed: 8198, K: 2, Size: 3928]
+block weight upper bound 7495
+Separator [Seed: 7545, K: 2, Size: 3928]
+block weight upper bound 7286
+Separator [Seed: 9745, K: 2, Size: 3928]
+block weight upper bound 5057
+Separator [Seed: 6435, K: 2, Size: 3928]
+block weight upper bound 4836
+Separator [Seed: 6838, K: 2, Size: 3928]
+block weight upper bound 4750
+Separator [Seed: 1447, K: 2, Size: 3971]
+block weight upper bound 6276
+Separator [Seed: 4508, K: 2, Size: 3928]
+block weight upper bound 7466
+Separator [Seed: 4417, K: 2, Size: 3928]
+block weight upper bound 6703
+Separator [Seed: 6410, K: 2, Size: 3928]
+block weight upper bound 5414
+Separator [Seed: 8203, K: 2, Size: 3928]
+block weight upper bound 7155
+Separator [Seed: 7687, K: 2, Size: 3928]
+block weight upper bound 6734
+Separator [Seed: 5845, K: 2, Size: 3928]
+block weight upper bound 4616
+Separator [Seed: 3954, K: 2, Size: 4105]
+block weight upper bound 4758
+Separator [Seed: 3297, K: 2, Size: 3963]
+block weight upper bound 4690
+Separator [Seed: 8074, K: 2, Size: 4031]
+block weight upper bound 7232
+Separator [Seed: 7535, K: 2, Size: 3928]
+block weight upper bound 5727
+Separator [Seed: 608, K: 2, Size: 3928]
+block weight upper bound 4649
+Separator [Seed: 8812, K: 2, Size: 4072]
+block weight upper bound 4796
+Separator [Seed: 3830, K: 2, Size: 3928]
+block weight upper bound 6601
+Separator [Seed: 6502, K: 2, Size: 3928]
+block weight upper bound 5704
+Separator [Seed: 4068, K: 2, Size: 3928]
+block weight upper bound 6239
+Separator [Seed: 5998, K: 2, Size: 3928]
+block weight upper bound 5796
+Separator [Seed: 8075, K: 2, Size: 3928]
+block weight upper bound 7479
+Separator [Seed: 724, K: 2, Size: 3928]
+block weight upper bound 860
+Separator [Seed: 5992, K: 17, Size: 8094]
+block weight upper bound 313
+Separator [Seed: 2037, K: 39, Size: 8408]
+block weight upper bound 293
+Separator [Seed: 6942, K: 49, Size: 8565]
+block weight upper bound 749
+Separator [Seed: 655, K: 14, Size: 8074]
+block weight upper bound 185
+Separator [Seed: 1758, K: 50, Size: 8516]
+block weight upper bound 171
+Separator [Seed: 6678, K: 62, Size: 8543]
+block weight upper bound 210
+Separator [Seed: 8260, K: 64, Size: 8591]
+block weight upper bound 345
+Separator [Seed: 5993, K: 31, Size: 8337]
+block weight upper bound 294
+Separator [Seed: 975, K: 50, Size: 8589]
+block weight upper bound 738
+Separator [Seed: 3943, K: 13, Size: 7869]
+block weight upper bound 433
+Separator [Seed: 7858, K: 30, Size: 8514]
+block weight upper bound 360
+Separator [Seed: 637, K: 30, Size: 8359]
+block weight upper bound 475
+Separator [Seed: 1372, K: 28, Size: 8489]
+block weight upper bound 332
+Separator [Seed: 7399, K: 30, Size: 8404]
+block weight upper bound 368
+Separator [Seed: 9078, K: 39, Size: 8565]
+block weight upper bound 198
+Separator [Seed: 5148, K: 59, Size: 8553]
+block weight upper bound 294
+Separator [Seed: 2921, K: 48, Size: 8560]
+block weight upper bound 198
+Separator [Seed: 5966, K: 64, Size: 8516]
+block weight upper bound 189
+Separator [Seed: 4864, K: 53, Size: 8515]
+block weight upper bound 1357
+Separator [Seed: 3082, K: 9, Size: 8094]
+block weight upper bound 298
+Separator [Seed: 8499, K: 48, Size: 8479]
+block weight upper bound 459
+Separator [Seed: 4651, K: 24, Size: 8412]
+block weight upper bound 208
+Separator [Seed: 4823, K: 57, Size: 8614]
+block weight upper bound 1750
+Separator [Seed: 7931, K: 8, Size: 6249]
+block weight upper bound 328
+Separator [Seed: 4556, K: 42, Size: 8628]
+block weight upper bound 229
+Separator [Seed: 5045, K: 40, Size: 8490]
+block weight upper bound 1307
+Separator [Seed: 8793, K: 8, Size: 6559]
+block weight upper bound 253
+Separator [Seed: 8463, K: 47, Size: 8676]
+block weight upper bound 148
+Separator [Seed: 194, K: 62, Size: 8562]
+block weight upper bound 367
+Separator [Seed: 6709, K: 39, Size: 8405]
+
+Round:				10
+Best solution:			120
+Time:				8094.09
+
+
+Round:				11
+Best solution:			120
+Time:				8907.32
+
+
+Round:				12
+Best solution:			120
+Time:				9763.29
+
+571		Vertex cover	136	136	10074.1
+
+Round:				13
+Best solution:			136
+Time:				10548.4
+
+
+Round:				14
+Best solution:			136
+Time:				11271.6
+
+
+Round:				15
+Best solution:			136
+Time:				12044
+
+
+Round:				16
+Best solution:			136
+Time:				12841.8
+
+
+Round:				17
+Best solution:			136
+Time:				13592.8
+
+block weight upper bound 5692
+Partition [Seed: 3662, K: 2]
+block weight upper bound 5974
+Partition [Seed: 1716, K: 2]
+block weight upper bound 5711
+Partition [Seed: 8746, K: 2]
+block weight upper bound 5082
+Partition [Seed: 5983, K: 2]
+block weight upper bound 5520
+Partition [Seed: 6155, K: 2]
+block weight upper bound 6735
+Partition [Seed: 3529, K: 2]
+block weight upper bound 5920
+Partition [Seed: 3718, K: 2]
+block weight upper bound 7521
+Partition [Seed: 3626, K: 2]
+block weight upper bound 6384
+Partition [Seed: 3904, K: 2]
+block weight upper bound 6029
+Partition [Seed: 5370, K: 2]
+block weight upper bound 4801
+Partition [Seed: 5560, K: 2]
+block weight upper bound 5328
+Partition [Seed: 5181, K: 2]
+block weight upper bound 5896
+Partition [Seed: 7584, K: 2]
+block weight upper bound 4828
+Partition [Seed: 8568, K: 2]
+block weight upper bound 5974
+Partition [Seed: 3739, K: 2]
+block weight upper bound 6402
+Partition [Seed: 1595, K: 2]
+block weight upper bound 4991
+Partition [Seed: 8903, K: 2]
+block weight upper bound 5182
+Partition [Seed: 7628, K: 2]
+block weight upper bound 7586
+Partition [Seed: 353, K: 2]
+block weight upper bound 6147
+Partition [Seed: 2164, K: 2]
+block weight upper bound 6802
+Partition [Seed: 5340, K: 2]
+block weight upper bound 5766
+Partition [Seed: 6511, K: 2]
+block weight upper bound 5781
+Partition [Seed: 3683, K: 2]
+block weight upper bound 4965
+Partition [Seed: 6241, K: 2]
+block weight upper bound 5370
+Partition [Seed: 7617, K: 2]
+block weight upper bound 7137
+Partition [Seed: 6755, K: 2]
+block weight upper bound 6662
+Partition [Seed: 1086, K: 2]
+block weight upper bound 6591
+Partition [Seed: 7307, K: 2]
+block weight upper bound 6297
+Partition [Seed: 1394, K: 2]
+block weight upper bound 6211
+Partition [Seed: 448, K: 2]
+block weight upper bound 6120
+Separator [Seed: 8685, K: 2, Size: 3928]
+block weight upper bound 5697
+Separator [Seed: 4527, K: 2, Size: 3928]
+block weight upper bound 6243
+Separator [Seed: 1613, K: 2, Size: 3928]
+block weight upper bound 5250
+Separator [Seed: 888, K: 2, Size: 3928]
+block weight upper bound 5450
+Separator [Seed: 8736, K: 2, Size: 3928]
+block weight upper bound 6403
+Separator [Seed: 4716, K: 2, Size: 3928]
+block weight upper bound 5159
+Separator [Seed: 7967, K: 2, Size: 3928]
+block weight upper bound 5440
+Separator [Seed: 7924, K: 2, Size: 3928]
+block weight upper bound 6069
+Separator [Seed: 120, K: 2, Size: 3928]
+block weight upper bound 5845
+Separator [Seed: 9593, K: 2, Size: 3928]
+block weight upper bound 5216
+Separator [Seed: 8846, K: 2, Size: 3928]
+block weight upper bound 5292
+Separator [Seed: 2399, K: 2, Size: 3928]
+block weight upper bound 7605
+Separator [Seed: 2030, K: 2, Size: 3928]
+block weight upper bound 7553
+Separator [Seed: 7100, K: 2, Size: 3928]
+block weight upper bound 4751
+Separator [Seed: 1853, K: 2, Size: 3970]
+block weight upper bound 7383
+Separator [Seed: 9134, K: 2, Size: 3928]
+block weight upper bound 5016
+Separator [Seed: 8910, K: 2, Size: 3928]
+block weight upper bound 5712
+Separator [Seed: 6670, K: 2, Size: 3928]
+block weight upper bound 6940
+Separator [Seed: 6473, K: 2, Size: 3928]
+block weight upper bound 7059
+Separator [Seed: 7140, K: 2, Size: 3928]
+block weight upper bound 6591
+Separator [Seed: 7766, K: 2, Size: 3928]
+block weight upper bound 6053
+Separator [Seed: 812, K: 2, Size: 3928]
+block weight upper bound 7068
+Separator [Seed: 6681, K: 2, Size: 3928]
+block weight upper bound 7470
+Separator [Seed: 4996, K: 2, Size: 3928]
+block weight upper bound 6440
+Separator [Seed: 1256, K: 2, Size: 3928]
+block weight upper bound 6765
+Separator [Seed: 6251, K: 2, Size: 3928]
+block weight upper bound 5704
+Separator [Seed: 3609, K: 2, Size: 3928]
+block weight upper bound 6005
+Separator [Seed: 625, K: 2, Size: 3928]
+block weight upper bound 5544
+Separator [Seed: 3680, K: 2, Size: 3928]
+block weight upper bound 7226
+Separator [Seed: 947, K: 2, Size: 3928]
+block weight upper bound 450
+Separator [Seed: 3939, K: 29, Size: 8193]
+block weight upper bound 307
+Separator [Seed: 1723, K: 49, Size: 8503]
+block weight upper bound 7139
+Separator [Seed: 3235, K: 2, Size: 3928]
+block weight upper bound 243
+Separator [Seed: 7845, K: 62, Size: 8668]
+block weight upper bound 421
+Separator [Seed: 5203, K: 31, Size: 8286]
+block weight upper bound 205
+Separator [Seed: 607, K: 60, Size: 8565]
+block weight upper bound 1826
+Separator [Seed: 3164, K: 8, Size: 6168]
+block weight upper bound 256
+Separator [Seed: 5576, K: 43, Size: 8490]
+block weight upper bound 249
+Separator [Seed: 7417, K: 51, Size: 8508]
+block weight upper bound 299
+Separator [Seed: 3182, K: 48, Size: 8512]
+block weight upper bound 344
+Separator [Seed: 6925, K: 40, Size: 8413]
+block weight upper bound 677
+Separator [Seed: 3603, K: 20, Size: 8044]
+block weight upper bound 244
+Separator [Seed: 3741, K: 42, Size: 8616]
+block weight upper bound 241
+Separator [Seed: 1836, K: 50, Size: 8557]
+block weight upper bound 397
+Separator [Seed: 178, K: 35, Size: 8525]
+block weight upper bound 1700
+Separator [Seed: 5340, K: 8, Size: 7723]
+block weight upper bound 577
+Separator [Seed: 7069, K: 25, Size: 8417]
+block weight upper bound 329
+Separator [Seed: 7748, K: 41, Size: 8487]
+block weight upper bound 1584
+Separator [Seed: 905, K: 7, Size: 7698]
+block weight upper bound 220
+Separator [Seed: 782, K: 62, Size: 8625]
+block weight upper bound 304
+Separator [Seed: 1403, K: 46, Size: 8651]
+block weight upper bound 226
+Separator [Seed: 9700, K: 61, Size: 8665]
+block weight upper bound 366
+Separator [Seed: 8750, K: 30, Size: 8382]
+block weight upper bound 2463
+Separator [Seed: 3435, K: 5, Size: 6289]
+block weight upper bound 179
+Separator [Seed: 3934, K: 63, Size: 8623]
+block weight upper bound 224
+Separator [Seed: 6350, K: 60, Size: 8502]
+block weight upper bound 305
+Separator [Seed: 5480, K: 48, Size: 8422]
+block weight upper bound 1983
+Separator [Seed: 7425, K: 6, Size: 6251]
+block weight upper bound 475
+Separator [Seed: 4776, K: 27, Size: 8512]
+block weight upper bound 415
+Separator [Seed: 7032, K: 31, Size: 8553]
+
+Round:				18
+Best solution:			136
+Time:				14698.4
+
+
+Round:				19
+Best solution:			136
+Time:				15498.6
+
+
+Round:				20
+Best solution:			136
+Time:				16247.4
+
+
+Round:				21
+Best solution:			136
+Time:				16884
+
+block weight upper bound 7271
+Partition [Seed: 3383, K: 2]
+block weight upper bound 4944
+Partition [Seed: 5023, K: 2]
+block weight upper bound 5135
+Partition [Seed: 8592, K: 2]
+block weight upper bound 5523
+Partition [Seed: 1770, K: 2]
+block weight upper bound 6757
+Partition [Seed: 7236, K: 2]
+block weight upper bound 4979
+Partition [Seed: 9941, K: 2]
+block weight upper bound 7408
+Partition [Seed: 5787, K: 2]
+block weight upper bound 7357
+Partition [Seed: 8834, K: 2]
+block weight upper bound 4618
+Partition [Seed: 4187, K: 2]
+block weight upper bound 6326
+Partition [Seed: 5101, K: 2]
+block weight upper bound 5792
+Partition [Seed: 2878, K: 2]
+block weight upper bound 4918
+Partition [Seed: 5189, K: 2]
+block weight upper bound 5911
+Partition [Seed: 9607, K: 2]
+block weight upper bound 5259
+Partition [Seed: 9266, K: 2]
+block weight upper bound 5257
+Partition [Seed: 1986, K: 2]
+block weight upper bound 7007
+Partition [Seed: 5449, K: 2]
+block weight upper bound 6344
+Partition [Seed: 3025, K: 2]
+block weight upper bound 5069
+Partition [Seed: 5344, K: 2]
+block weight upper bound 5868
+Partition [Seed: 5268, K: 2]
+block weight upper bound 5816
+Partition [Seed: 8774, K: 2]
+block weight upper bound 5238
+Partition [Seed: 5100, K: 2]
+block weight upper bound 6158
+Partition [Seed: 3435, K: 2]
+block weight upper bound 7016
+Partition [Seed: 259, K: 2]
+block weight upper bound 6980
+Partition [Seed: 3020, K: 2]
+block weight upper bound 6456
+Partition [Seed: 2188, K: 2]
+block weight upper bound 6635
+Partition [Seed: 3621, K: 2]
+block weight upper bound 5304
+Partition [Seed: 7370, K: 2]
+block weight upper bound 7331
+Partition [Seed: 4615, K: 2]
+block weight upper bound 5855
+Partition [Seed: 9826, K: 2]
+block weight upper bound 5705
+Partition [Seed: 3549, K: 2]
+block weight upper bound 4921
+Separator [Seed: 917, K: 2, Size: 3928]
+block weight upper bound 5853
+Separator [Seed: 929, K: 2, Size: 3928]
+block weight upper bound 5257
+Separator [Seed: 9206, K: 2, Size: 3928]
+block weight upper bound 5666
+Separator [Seed: 3129, K: 2, Size: 3928]
+block weight upper bound 6767
+Separator [Seed: 595, K: 2, Size: 3928]
+block weight upper bound 6065
+Separator [Seed: 5031, K: 2, Size: 3928]
+block weight upper bound 5116
+Separator [Seed: 2929, K: 2, Size: 3928]
+block weight upper bound 5025
+Separator [Seed: 825, K: 2, Size: 3928]
+block weight upper bound 5085
+Separator [Seed: 2057, K: 2, Size: 3928]
+block weight upper bound 6937
+Separator [Seed: 4623, K: 2, Size: 3928]
+block weight upper bound 5617
+Separator [Seed: 1159, K: 2, Size: 3928]
+block weight upper bound 6228
+Separator [Seed: 8134, K: 2, Size: 3928]
+block weight upper bound 5561
+Separator [Seed: 5530, K: 2, Size: 3928]
+block weight upper bound 6114
+Separator [Seed: 1864, K: 2, Size: 3928]
+block weight upper bound 5047
+Separator [Seed: 6781, K: 2, Size: 3928]
+block weight upper bound 4690
+Separator [Seed: 8074, K: 2, Size: 4031]
+block weight upper bound 7232
+Separator [Seed: 7535, K: 2, Size: 3928]
+block weight upper bound 5727
+Separator [Seed: 608, K: 2, Size: 3928]
+block weight upper bound 4649
+Separator [Seed: 8812, K: 2, Size: 4072]
+block weight upper bound 4796
+Separator [Seed: 3830, K: 2, Size: 3928]
+block weight upper bound 6601
+Separator [Seed: 6502, K: 2, Size: 3928]
+block weight upper bound 5704
+Separator [Seed: 4068, K: 2, Size: 3928]
+block weight upper bound 6239
+Separator [Seed: 5998, K: 2, Size: 3928]
+block weight upper bound 5796
+Separator [Seed: 8075, K: 2, Size: 3928]
+block weight upper bound 7479
+Separator [Seed: 724, K: 2, Size: 3928]
+block weight upper bound 7310
+Separator [Seed: 5992, K: 2, Size: 3928]
+block weight upper bound 5840
+Separator [Seed: 6359, K: 2, Size: 3928]
+block weight upper bound 5800
+Separator [Seed: 5879, K: 2, Size: 3928]
+block weight upper bound 4608
+Separator [Seed: 4240, K: 2, Size: 4113]
+block weight upper bound 6734
+Separator [Seed: 4514, K: 2, Size: 3928]
+block weight upper bound 382
+Separator [Seed: 1890, K: 29, Size: 8335]
+block weight upper bound 468
+Separator [Seed: 1583, K: 30, Size: 8352]
+block weight upper bound 573
+Separator [Seed: 1875, K: 26, Size: 8252]
+block weight upper bound 285
+Separator [Seed: 2929, K: 36, Size: 8482]
+block weight upper bound 488
+Separator [Seed: 6000, K: 22, Size: 8171]
+block weight upper bound 5473
+Separator [Seed: 4178, K: 2, Size: 3928]
+block weight upper bound 266
+Separator [Seed: 6351, K: 47, Size: 8529]
+block weight upper bound 301
+Separator [Seed: 6300, K: 36, Size: 8420]
+block weight upper bound 170
+Separator [Seed: 3752, K: 58, Size: 8531]
+block weight upper bound 346
+Separator [Seed: 524, K: 40, Size: 8448]
+block weight upper bound 222
+Separator [Seed: 7953, K: 46, Size: 8506]
+block weight upper bound 401
+Separator [Seed: 2559, K: 24, Size: 8337]
+block weight upper bound 323
+Separator [Seed: 181, K: 35, Size: 8398]
+block weight upper bound 209
+Separator [Seed: 1292, K: 44, Size: 8523]
+block weight upper bound 1366
+Separator [Seed: 8450, K: 8, Size: 7766]
+block weight upper bound 433
+Separator [Seed: 7217, K: 34, Size: 8414]
+block weight upper bound 178
+Separator [Seed: 499, K: 62, Size: 8589]
+block weight upper bound 217
+Separator [Seed: 9009, K: 60, Size: 8636]
+block weight upper bound 358
+Separator [Seed: 7812, K: 28, Size: 8311]
+block weight upper bound 3783
+Separator [Seed: 2309, K: 4, Size: 4940]
+block weight upper bound 626
+Separator [Seed: 6721, K: 21, Size: 8581]
+block weight upper bound 258
+Separator [Seed: 4482, K: 53, Size: 8612]
+block weight upper bound 817
+Separator [Seed: 1308, K: 13, Size: 7904]
+block weight upper bound 231
+Separator [Seed: 1767, K: 59, Size: 8574]
+block weight upper bound 394
+Separator [Seed: 4614, K: 24, Size: 8325]
+block weight upper bound 761
+Separator [Seed: 4474, K: 19, Size: 8089]
+block weight upper bound 307
+Separator [Seed: 8465, K: 43, Size: 8437]
+block weight upper bound 202
+Separator [Seed: 45, K: 64, Size: 8684]
+block weight upper bound 574
+Separator [Seed: 1230, K: 19, Size: 8032]
+block weight upper bound 1448
+Separator [Seed: 3088, K: 7, Size: 6591]
+
+Round:				22
+Best solution:			136
+Time:				18071.5
+
+
+Round:				23
+Best solution:			136
+Time:				18938.5
+
+
+Round:				24
+Best solution:			136
+Time:				19571.8
+
+
+Round:				25
+Best solution:			136
+Time:				20182.8
+
+block weight upper bound 4615
+Partition [Seed: 4067, K: 2]
+block weight upper bound 7018
+Partition [Seed: 1011, K: 2]
+block weight upper bound 7246
+Partition [Seed: 4940, K: 2]
+block weight upper bound 5974
+Partition [Seed: 3739, K: 2]
+block weight upper bound 6402
+Partition [Seed: 1595, K: 2]
+block weight upper bound 4991
+Partition [Seed: 8903, K: 2]
+block weight upper bound 5182
+Partition [Seed: 7628, K: 2]
+block weight upper bound 7586
+Partition [Seed: 353, K: 2]
+block weight upper bound 6147
+Partition [Seed: 2164, K: 2]
+block weight upper bound 6802
+Partition [Seed: 5340, K: 2]
+block weight upper bound 5766
+Partition [Seed: 6511, K: 2]
+block weight upper bound 5781
+Partition [Seed: 3683, K: 2]
+block weight upper bound 4965
+Partition [Seed: 6241, K: 2]
+block weight upper bound 5370
+Partition [Seed: 7617, K: 2]
+block weight upper bound 7137
+Partition [Seed: 6755, K: 2]
+block weight upper bound 6662
+Partition [Seed: 1086, K: 2]
+block weight upper bound 6591
+Partition [Seed: 7307, K: 2]
+block weight upper bound 6297
+Partition [Seed: 1394, K: 2]
+block weight upper bound 6211
+Partition [Seed: 448, K: 2]
+block weight upper bound 6120
+Partition [Seed: 8685, K: 2]
+block weight upper bound 5697
+Partition [Seed: 4527, K: 2]
+block weight upper bound 6243
+Partition [Seed: 1613, K: 2]
+block weight upper bound 5250
+Partition [Seed: 888, K: 2]
+block weight upper bound 5450
+Partition [Seed: 8736, K: 2]
+block weight upper bound 6403
+Partition [Seed: 4716, K: 2]
+block weight upper bound 5159
+Partition [Seed: 7967, K: 2]
+block weight upper bound 5440
+Partition [Seed: 7924, K: 2]
+block weight upper bound 6069
+Partition [Seed: 120, K: 2]
+block weight upper bound 5845
+Partition [Seed: 9593, K: 2]
+block weight upper bound 5216
+Partition [Seed: 8846, K: 2]
+block weight upper bound 5292
+Separator [Seed: 2399, K: 2, Size: 3928]
+block weight upper bound 7605
+Separator [Seed: 2030, K: 2, Size: 3928]
+block weight upper bound 7553
+Separator [Seed: 7100, K: 2, Size: 3928]
+block weight upper bound 4751
+Separator [Seed: 1853, K: 2, Size: 3970]
+block weight upper bound 7383
+Separator [Seed: 9134, K: 2, Size: 3928]
+block weight upper bound 5016
+Separator [Seed: 8910, K: 2, Size: 3928]
+block weight upper bound 5712
+Separator [Seed: 6670, K: 2, Size: 3928]
+block weight upper bound 6940
+Separator [Seed: 6473, K: 2, Size: 3928]
+block weight upper bound 7059
+Separator [Seed: 7140, K: 2, Size: 3928]
+block weight upper bound 6591
+Separator [Seed: 7766, K: 2, Size: 3928]
+block weight upper bound 6053
+Separator [Seed: 812, K: 2, Size: 3928]
+block weight upper bound 7068
+Separator [Seed: 6681, K: 2, Size: 3928]
+block weight upper bound 7470
+Separator [Seed: 4996, K: 2, Size: 3928]
+block weight upper bound 6440
+Separator [Seed: 1256, K: 2, Size: 3928]
+block weight upper bound 6765
+Separator [Seed: 6251, K: 2, Size: 3928]
+block weight upper bound 5704
+Separator [Seed: 3609, K: 2, Size: 3928]
+block weight upper bound 6005
+Separator [Seed: 625, K: 2, Size: 3928]
+block weight upper bound 5544
+Separator [Seed: 3680, K: 2, Size: 3928]
+block weight upper bound 7226
+Separator [Seed: 947, K: 2, Size: 3928]
+block weight upper bound 6529
+Separator [Seed: 3939, K: 2, Size: 3928]
+block weight upper bound 6023
+Separator [Seed: 5423, K: 2, Size: 3928]
+block weight upper bound 6182
+Separator [Seed: 1479, K: 2, Size: 3928]
+block weight upper bound 6452
+Separator [Seed: 3692, K: 2, Size: 3928]
+block weight upper bound 6479
+Separator [Seed: 924, K: 2, Size: 3928]
+block weight upper bound 7413
+Separator [Seed: 18, K: 2, Size: 3928]
+block weight upper bound 7482
+Separator [Seed: 8523, K: 2, Size: 3928]
+block weight upper bound 5319
+Separator [Seed: 9686, K: 2, Size: 3928]
+block weight upper bound 6265
+Separator [Seed: 4621, K: 2, Size: 3928]
+block weight upper bound 6377
+Separator [Seed: 4017, K: 2, Size: 3928]
+block weight upper bound 6885
+Separator [Seed: 9693, K: 2, Size: 3928]
+block weight upper bound 795
+Separator [Seed: 422, K: 17, Size: 8507]
+block weight upper bound 195
+Separator [Seed: 7364, K: 50, Size: 8487]
+block weight upper bound 366
+Separator [Seed: 2271, K: 31, Size: 8291]
+block weight upper bound 293
+Separator [Seed: 4032, K: 41, Size: 8425]
+block weight upper bound 966
+Separator [Seed: 5226, K: 15, Size: 7773]
+block weight upper bound 272
+Separator [Seed: 7518, K: 51, Size: 8560]
+block weight upper bound 265
+Separator [Seed: 6016, K: 46, Size: 8609]
+block weight upper bound 2527
+Separator [Seed: 2163, K: 4, Size: 4055]
+block weight upper bound 664
+Separator [Seed: 6740, K: 18, Size: 8454]
+block weight upper bound 195
+Separator [Seed: 1326, K: 53, Size: 8442]
+block weight upper bound 514
+Separator [Seed: 1569, K: 27, Size: 8207]
+block weight upper bound 176
+Separator [Seed: 5768, K: 56, Size: 8518]
+block weight upper bound 283
+Separator [Seed: 4994, K: 48, Size: 8586]
+block weight upper bound 170
+Separator [Seed: 5167, K: 62, Size: 8555]
+block weight upper bound 1834
+Separator [Seed: 1465, K: 5, Size: 6887]
+block weight upper bound 770
+Separator [Seed: 3578, K: 14, Size: 7872]
+block weight upper bound 233
+Separator [Seed: 2340, K: 55, Size: 8619]
+block weight upper bound 3954
+Separator [Seed: 3838, K: 3, Size: 4794]
+block weight upper bound 256
+Separator [Seed: 8850, K: 51, Size: 8658]
+block weight upper bound 325
+Separator [Seed: 658, K: 43, Size: 8468]
+block weight upper bound 218
+Separator [Seed: 6136, K: 56, Size: 8568]
+block weight upper bound 4955
+Separator [Seed: 7990, K: 3, Size: 3929]
+block weight upper bound 332
+Separator [Seed: 1037, K: 39, Size: 8495]
+block weight upper bound 675
+Separator [Seed: 6901, K: 15, Size: 8098]
+block weight upper bound 243
+Separator [Seed: 9823, K: 59, Size: 8660]
+block weight upper bound 472
+Separator [Seed: 5813, K: 29, Size: 8363]
+block weight upper bound 432
+Separator [Seed: 751, K: 23, Size: 8289]
+block weight upper bound 2035
+Separator [Seed: 4925, K: 6, Size: 5704]
+block weight upper bound 432
+Separator [Seed: 9354, K: 25, Size: 8533]
+block weight upper bound 291
+Separator [Seed: 9041, K: 44, Size: 8537]
+
+Round:				26
+Best solution:			136
+Time:				21050.6
+
+
+Round:				27
+Best solution:			136
+Time:				21674.4
+
+
+Round:				28
+Best solution:			136
+Time:				22316.3
+
+
+Round:				29
+Best solution:			136
+Time:				22936.2
+
+block weight upper bound 5430
+Partition [Seed: 2208, K: 2]
+block weight upper bound 5935
+Partition [Seed: 9614, K: 2]
+block weight upper bound 5274
+Partition [Seed: 5054, K: 2]
+block weight upper bound 4597
+Partition [Seed: 6775, K: 2]
+block weight upper bound 7266
+Partition [Seed: 8061, K: 2]
+block weight upper bound 5763
+Partition [Seed: 7203, K: 2]
+block weight upper bound 5519
+Partition [Seed: 5463, K: 2]
+block weight upper bound 7347
+Partition [Seed: 3291, K: 2]
+block weight upper bound 6457
+Partition [Seed: 52, K: 2]
+block weight upper bound 5847
+Partition [Seed: 982, K: 2]
+block weight upper bound 7469
+Partition [Seed: 7192, K: 2]
+block weight upper bound 5388
+Partition [Seed: 6293, K: 2]
+block weight upper bound 6369
+Partition [Seed: 7590, K: 2]
+block weight upper bound 6999
+Partition [Seed: 2854, K: 2]
+block weight upper bound 7038
+Partition [Seed: 9615, K: 2]
+block weight upper bound 6380
+Partition [Seed: 8808, K: 2]
+block weight upper bound 5284
+Partition [Seed: 6092, K: 2]
+block weight upper bound 7613
+Partition [Seed: 6309, K: 2]
+block weight upper bound 6433
+Partition [Seed: 2008, K: 2]
+block weight upper bound 5515
+Partition [Seed: 4019, K: 2]
+block weight upper bound 4939
+Partition [Seed: 7618, K: 2]
+block weight upper bound 5057
+Partition [Seed: 1065, K: 2]
+block weight upper bound 7184
+Partition [Seed: 474, K: 2]
+block weight upper bound 5756
+Partition [Seed: 7722, K: 2]
+block weight upper bound 5941
+Partition [Seed: 1822, K: 2]
+block weight upper bound 5355
+Partition [Seed: 6805, K: 2]
+block weight upper bound 6873
+Partition [Seed: 9114, K: 2]
+block weight upper bound 5912
+Partition [Seed: 8975, K: 2]
+block weight upper bound 6308
+Partition [Seed: 2319, K: 2]
+block weight upper bound 7255
+Partition [Seed: 2112, K: 2]
+block weight upper bound 6130
+Separator [Seed: 6203, K: 2, Size: 3928]
+block weight upper bound 5169
+Separator [Seed: 6756, K: 2, Size: 3928]
+block weight upper bound 7145
+Separator [Seed: 9244, K: 2, Size: 3928]
+block weight upper bound 7485
+Separator [Seed: 6966, K: 2, Size: 3928]
+block weight upper bound 5503
+Separator [Seed: 4651, K: 2, Size: 3928]
+block weight upper bound 7569
+Separator [Seed: 4558, K: 2, Size: 3928]
+block weight upper bound 6014
+Separator [Seed: 1896, K: 2, Size: 3928]
+block weight upper bound 5709
+Separator [Seed: 7302, K: 2, Size: 3928]
+block weight upper bound 6172
+Separator [Seed: 1878, K: 2, Size: 3928]
+block weight upper bound 6036
+Separator [Seed: 9469, K: 2, Size: 3928]
+block weight upper bound 7349
+Separator [Seed: 7796, K: 2, Size: 3928]
+block weight upper bound 6721
+Separator [Seed: 1333, K: 2, Size: 3928]
+block weight upper bound 7144
+Separator [Seed: 8033, K: 2, Size: 3928]
+block weight upper bound 4989
+Separator [Seed: 4804, K: 2, Size: 3928]
+block weight upper bound 7538
+Separator [Seed: 4611, K: 2, Size: 3928]
+block weight upper bound 6709
+Separator [Seed: 6643, K: 2, Size: 3928]
+block weight upper bound 6047
+Separator [Seed: 5663, K: 2, Size: 3928]
+block weight upper bound 6932
+Separator [Seed: 2141, K: 2, Size: 3928]
+block weight upper bound 6842
+Separator [Seed: 2060, K: 2, Size: 3928]
+block weight upper bound 5422
+Separator [Seed: 4916, K: 2, Size: 3928]
+block weight upper bound 4880
+Separator [Seed: 1828, K: 2, Size: 3928]
+block weight upper bound 7454
+Separator [Seed: 6899, K: 2, Size: 3928]
+block weight upper bound 7350
+Separator [Seed: 5141, K: 2, Size: 3928]
+block weight upper bound 7609
+Separator [Seed: 9423, K: 2, Size: 3928]
+block weight upper bound 6618
+Separator [Seed: 9856, K: 2, Size: 3928]
+block weight upper bound 4874
+Separator [Seed: 9394, K: 2, Size: 3928]
+block weight upper bound 7332
+Separator [Seed: 3863, K: 2, Size: 3928]
+block weight upper bound 6482
+Separator [Seed: 1270, K: 2, Size: 3928]
+block weight upper bound 5812
+Separator [Seed: 5021, K: 2, Size: 3928]
+block weight upper bound 5379
+Separator [Seed: 2134, K: 2, Size: 3928]
+block weight upper bound 202
+Separator [Seed: 3237, K: 62, Size: 8646]
+block weight upper bound 192
+Separator [Seed: 826, K: 64, Size: 8522]
+block weight upper bound 251
+Separator [Seed: 2508, K: 56, Size: 8607]
+block weight upper bound 542
+Separator [Seed: 6533, K: 20, Size: 8155]
+block weight upper bound 249
+Separator [Seed: 7525, K: 56, Size: 8698]
+block weight upper bound 225
+Separator [Seed: 7861, K: 60, Size: 8627]
+block weight upper bound 215
+Separator [Seed: 5472, K: 58, Size: 8606]
+block weight upper bound 200
+Separator [Seed: 2870, K: 62, Size: 8683]
+block weight upper bound 286
+Separator [Seed: 2361, K: 45, Size: 8435]
+block weight upper bound 240
+Separator [Seed: 6779, K: 62, Size: 8474]
+block weight upper bound 5963
+Separator [Seed: 6680, K: 2, Size: 3928]
+block weight upper bound 544
+Separator [Seed: 1619, K: 19, Size: 8657]
+block weight upper bound 1769
+Separator [Seed: 2459, K: 6, Size: 7652]
+block weight upper bound 779
+Separator [Seed: 4246, K: 13, Size: 7942]
+block weight upper bound 156
+Separator [Seed: 1602, K: 63, Size: 8560]
+block weight upper bound 382
+Separator [Seed: 3060, K: 34, Size: 8298]
+block weight upper bound 3176
+Separator [Seed: 9147, K: 4, Size: 5734]
+block weight upper bound 6770
+Separator [Seed: 4754, K: 2, Size: 3928]
+block weight upper bound 3022
+Separator [Seed: 6581, K: 5, Size: 7832]
+block weight upper bound 368
+Separator [Seed: 884, K: 38, Size: 8674]
+block weight upper bound 318
+Separator [Seed: 8329, K: 37, Size: 8525]
+block weight upper bound 472
+Separator [Seed: 8792, K: 24, Size: 8416]
+block weight upper bound 763
+Separator [Seed: 6452, K: 18, Size: 7888]
+block weight upper bound 530
+Separator [Seed: 3800, K: 21, Size: 8215]
+block weight upper bound 703
+Separator [Seed: 5771, K: 19, Size: 8250]
+block weight upper bound 217
+Separator [Seed: 1393, K: 48, Size: 8502]
+block weight upper bound 300
+Separator [Seed: 2910, K: 48, Size: 8511]
+block weight upper bound 500
+Separator [Seed: 2468, K: 30, Size: 8225]
+block weight upper bound 230
+Separator [Seed: 5858, K: 63, Size: 8529]
+block weight upper bound 322
+Separator [Seed: 1759, K: 45, Size: 8544]
+
+Round:				30
+Best solution:			136
+Time:				23838
+
+
+Round:				31
+Best solution:			136
+Time:				24450.8
+
+
+Round:				32
+Best solution:			136
+Time:				24999.2
+
+
+Round:				33
+Best solution:			136
+Time:				25550.1
+
+block weight upper bound 5312
+Partition [Seed: 3098, K: 2]
+block weight upper bound 6484
+Partition [Seed: 6873, K: 2]
+block weight upper bound 5390
+Partition [Seed: 6699, K: 2]
+block weight upper bound 6883
+Partition [Seed: 6399, K: 2]
+block weight upper bound 6001
+Partition [Seed: 565, K: 2]
+block weight upper bound 6562
+Partition [Seed: 133, K: 2]
+block weight upper bound 4881
+Partition [Seed: 1422, K: 2]
+block weight upper bound 6803
+Partition [Seed: 4475, K: 2]
+block weight upper bound 5918
+Partition [Seed: 5455, K: 2]
+block weight upper bound 6865
+Partition [Seed: 6106, K: 2]
+block weight upper bound 6278
+Partition [Seed: 2831, K: 2]
+block weight upper bound 6006
+Partition [Seed: 4438, K: 2]
+block weight upper bound 6272
+Partition [Seed: 3989, K: 2]
+block weight upper bound 7401
+Partition [Seed: 6885, K: 2]
+block weight upper bound 4809
+Partition [Seed: 2559, K: 2]
+block weight upper bound 7377
+Partition [Seed: 6073, K: 2]
+block weight upper bound 6028
+Partition [Seed: 2595, K: 2]
+block weight upper bound 5476
+Partition [Seed: 1117, K: 2]
+block weight upper bound 6931
+Partition [Seed: 2607, K: 2]
+block weight upper bound 6486
+Partition [Seed: 2315, K: 2]
+block weight upper bound 4890
+Partition [Seed: 9627, K: 2]
+block weight upper bound 5209
+Partition [Seed: 4627, K: 2]
+block weight upper bound 4735
+Partition [Seed: 8953, K: 2]
+block weight upper bound 6204
+Partition [Seed: 1719, K: 2]
+block weight upper bound 6722
+Partition [Seed: 6823, K: 2]
+block weight upper bound 5991
+Partition [Seed: 4431, K: 2]
+block weight upper bound 7431
+Partition [Seed: 6892, K: 2]
+block weight upper bound 4821
+Partition [Seed: 7530, K: 2]
+block weight upper bound 6211
+Partition [Seed: 4261, K: 2]
+block weight upper bound 4616
+Partition [Seed: 9783, K: 2]
+block weight upper bound 6345
+Separator [Seed: 1295, K: 2, Size: 3928]
+block weight upper bound 6433
+Separator [Seed: 2008, K: 2, Size: 3928]
+block weight upper bound 5515
+Separator [Seed: 4019, K: 2, Size: 3928]
+block weight upper bound 4939
+Separator [Seed: 7618, K: 2, Size: 3928]
+block weight upper bound 5057
+Separator [Seed: 1065, K: 2, Size: 3928]
+block weight upper bound 7184
+Separator [Seed: 474, K: 2, Size: 3928]
+block weight upper bound 5756
+Separator [Seed: 7722, K: 2, Size: 3928]
+block weight upper bound 5941
+Separator [Seed: 1822, K: 2, Size: 3928]
+block weight upper bound 5355
+Separator [Seed: 6805, K: 2, Size: 3928]
+block weight upper bound 6873
+Separator [Seed: 9114, K: 2, Size: 3928]
+block weight upper bound 5912
+Separator [Seed: 8975, K: 2, Size: 3928]
+block weight upper bound 6308
+Separator [Seed: 2319, K: 2, Size: 3928]
+block weight upper bound 7255
+Separator [Seed: 2112, K: 2, Size: 3928]
+block weight upper bound 6130
+Separator [Seed: 6203, K: 2, Size: 3928]
+block weight upper bound 5169
+Separator [Seed: 6756, K: 2, Size: 3928]
+block weight upper bound 7145
+Separator [Seed: 9244, K: 2, Size: 3928]
+block weight upper bound 7485
+Separator [Seed: 6966, K: 2, Size: 3928]
+block weight upper bound 5503
+Separator [Seed: 4651, K: 2, Size: 3928]
+block weight upper bound 7569
+Separator [Seed: 4558, K: 2, Size: 3928]
+block weight upper bound 6014
+Separator [Seed: 1896, K: 2, Size: 3928]
+block weight upper bound 5709
+Separator [Seed: 7302, K: 2, Size: 3928]
+block weight upper bound 6172
+Separator [Seed: 1878, K: 2, Size: 3928]
+block weight upper bound 6036
+Separator [Seed: 9469, K: 2, Size: 3928]
+block weight upper bound 7349
+Separator [Seed: 7796, K: 2, Size: 3928]
+block weight upper bound 6721
+Separator [Seed: 1333, K: 2, Size: 3928]
+block weight upper bound 7144
+Separator [Seed: 8033, K: 2, Size: 3928]
+block weight upper bound 4989
+Separator [Seed: 4804, K: 2, Size: 3928]
+block weight upper bound 7538
+Separator [Seed: 4611, K: 2, Size: 3928]
+block weight upper bound 6709
+Separator [Seed: 6643, K: 2, Size: 3928]
+block weight upper bound 6047
+Separator [Seed: 5663, K: 2, Size: 3928]
+block weight upper bound 578
+Separator [Seed: 2141, K: 24, Size: 8640]
+block weight upper bound 424
+Separator [Seed: 8178, K: 26, Size: 8428]
+block weight upper bound 406
+Separator [Seed: 2774, K: 32, Size: 8355]
+block weight upper bound 2035
+Separator [Seed: 1265, K: 7, Size: 5949]
+block weight upper bound 524
+Separator [Seed: 5549, K: 19, Size: 7960]
+block weight upper bound 291
+Separator [Seed: 6314, K: 48, Size: 8572]
+block weight upper bound 201
+Separator [Seed: 9694, K: 49, Size: 8520]
+block weight upper bound 6615
+Separator [Seed: 8292, K: 2, Size: 3928]
+block weight upper bound 449
+Separator [Seed: 8437, K: 29, Size: 8385]
+block weight upper bound 1033
+Separator [Seed: 867, K: 10, Size: 7688]
+block weight upper bound 182
+Separator [Seed: 2128, K: 54, Size: 8640]
+block weight upper bound 246
+Separator [Seed: 7027, K: 45, Size: 8490]
+block weight upper bound 482
+Separator [Seed: 4448, K: 26, Size: 8587]
+block weight upper bound 288
+Separator [Seed: 7584, K: 41, Size: 8626]
+block weight upper bound 205
+Separator [Seed: 6895, K: 60, Size: 8528]
+block weight upper bound 476
+Separator [Seed: 1057, K: 23, Size: 8234]
+block weight upper bound 555
+Separator [Seed: 1337, K: 18, Size: 7904]
+block weight upper bound 306
+Separator [Seed: 1841, K: 45, Size: 8549]
+block weight upper bound 432
+Separator [Seed: 6990, K: 29, Size: 8563]
+block weight upper bound 834
+Separator [Seed: 3108, K: 17, Size: 8533]
+block weight upper bound 612
+Separator [Seed: 4663, K: 16, Size: 8109]
+block weight upper bound 283
+Separator [Seed: 9699, K: 41, Size: 8429]
+block weight upper bound 486
+Separator [Seed: 5296, K: 31, Size: 8387]
+block weight upper bound 289
+Separator [Seed: 4717, K: 52, Size: 8648]
+block weight upper bound 256
+Separator [Seed: 2146, K: 49, Size: 8664]
+block weight upper bound 272
+Separator [Seed: 8383, K: 51, Size: 8507]
+block weight upper bound 302
+Separator [Seed: 9988, K: 50, Size: 8673]
+block weight upper bound 270
+Separator [Seed: 6104, K: 46, Size: 8434]
+block weight upper bound 563
+Separator [Seed: 873, K: 20, Size: 8311]
+block weight upper bound 379
+Separator [Seed: 9766, K: 39, Size: 8537]
+
+Round:				34
+Best solution:			136
+Time:				26495.4
+
+
+Round:				35
+Best solution:			136
+Time:				27048
+
+
+Round:				36
+Best solution:			136
+Time:				27574.4
+
+
+Round:				37
+Best solution:			136
+Time:				28086.9
+
+block weight upper bound 7425
+Partition [Seed: 424, K: 2]
+block weight upper bound 5268
+Partition [Seed: 7416, K: 2]
+block weight upper bound 5785
+Partition [Seed: 9346, K: 2]
+block weight upper bound 6085
+Partition [Seed: 9769, K: 2]
+block weight upper bound 5406
+Partition [Seed: 9940, K: 2]
+block weight upper bound 6187
+Partition [Seed: 2058, K: 2]
+block weight upper bound 5139
+Partition [Seed: 1605, K: 2]
+block weight upper bound 5579
+Partition [Seed: 1837, K: 2]
+block weight upper bound 6255
+Partition [Seed: 8028, K: 2]
+block weight upper bound 6063
+Partition [Seed: 8032, K: 2]
+block weight upper bound 5071
+Partition [Seed: 9210, K: 2]
+block weight upper bound 4683
+Partition [Seed: 3509, K: 2]
+block weight upper bound 5294
+Partition [Seed: 7769, K: 2]
+block weight upper bound 6119
+Partition [Seed: 6602, K: 2]
+block weight upper bound 5527
+Partition [Seed: 2289, K: 2]
+block weight upper bound 5798
+Partition [Seed: 2652, K: 2]
+block weight upper bound 4659
+Partition [Seed: 5232, K: 2]
+block weight upper bound 6919
+Partition [Seed: 6526, K: 2]
+block weight upper bound 6117
+Partition [Seed: 5098, K: 2]
+block weight upper bound 7050
+Partition [Seed: 6734, K: 2]
+block weight upper bound 7386
+Partition [Seed: 3012, K: 2]
+block weight upper bound 7281
+Partition [Seed: 7835, K: 2]
+block weight upper bound 4638
+Partition [Seed: 5977, K: 2]
+block weight upper bound 6488
+Partition [Seed: 8377, K: 2]
+block weight upper bound 5134
+Partition [Seed: 6343, K: 2]
+block weight upper bound 6623
+Partition [Seed: 4426, K: 2]
+block weight upper bound 6129
+Partition [Seed: 8279, K: 2]
+block weight upper bound 4584
+Partition [Seed: 7354, K: 2]
+block weight upper bound 4836
+Partition [Seed: 3145, K: 2]
+block weight upper bound 4904
+Partition [Seed: 7551, K: 2]
+block weight upper bound 7019
+Separator [Seed: 8743, K: 2, Size: 3928]
+block weight upper bound 5896
+Separator [Seed: 8968, K: 2, Size: 3928]
+block weight upper bound 5115
+Separator [Seed: 3335, K: 2, Size: 3928]
+block weight upper bound 5729
+Separator [Seed: 3842, K: 2, Size: 3928]
+block weight upper bound 4970
+Separator [Seed: 4045, K: 2, Size: 3928]
+block weight upper bound 4716
+Separator [Seed: 8367, K: 2, Size: 4005]
+block weight upper bound 5477
+Separator [Seed: 6547, K: 2, Size: 3928]
+block weight upper bound 4692
+Separator [Seed: 2012, K: 2, Size: 4029]
+block weight upper bound 5442
+Separator [Seed: 4111, K: 2, Size: 3928]
+block weight upper bound 5221
+Separator [Seed: 3769, K: 2, Size: 3928]
+block weight upper bound 5454
+Separator [Seed: 4291, K: 2, Size: 3928]
+block weight upper bound 6924
+Separator [Seed: 3585, K: 2, Size: 3928]
+block weight upper bound 5824
+Separator [Seed: 5254, K: 2, Size: 3928]
+block weight upper bound 6145
+Separator [Seed: 1991, K: 2, Size: 3928]
+block weight upper bound 7290
+Separator [Seed: 329, K: 2, Size: 3928]
+block weight upper bound 6238
+Separator [Seed: 1846, K: 2, Size: 3928]
+block weight upper bound 5132
+Separator [Seed: 4553, K: 2, Size: 3928]
+block weight upper bound 6023
+Separator [Seed: 1843, K: 2, Size: 3928]
+block weight upper bound 4961
+Separator [Seed: 751, K: 2, Size: 3928]
+block weight upper bound 5651
+Separator [Seed: 1046, K: 2, Size: 3928]
+block weight upper bound 6889
+Separator [Seed: 9001, K: 2, Size: 3928]
+block weight upper bound 5613
+Separator [Seed: 7680, K: 2, Size: 3928]
+block weight upper bound 5523
+Separator [Seed: 612, K: 2, Size: 3928]
+block weight upper bound 5353
+Separator [Seed: 1375, K: 2, Size: 3928]
+block weight upper bound 6158
+Separator [Seed: 8173, K: 2, Size: 3928]
+block weight upper bound 6220
+Separator [Seed: 5013, K: 2, Size: 3928]
+block weight upper bound 7587
+Separator [Seed: 6761, K: 2, Size: 3928]
+block weight upper bound 5859
+Separator [Seed: 9999, K: 2, Size: 3928]
+block weight upper bound 7489
+Separator [Seed: 4544, K: 2, Size: 3928]
+block weight upper bound 7584
+Separator [Seed: 5317, K: 2, Size: 3928]
+block weight upper bound 200
+Separator [Seed: 3308, K: 46, Size: 8516]
+block weight upper bound 931
+Separator [Seed: 3020, K: 15, Size: 8265]
+block weight upper bound 475
+Separator [Seed: 4776, K: 27, Size: 8512]
+block weight upper bound 415
+Separator [Seed: 7032, K: 31, Size: 8553]
+block weight upper bound 221
+Separator [Seed: 1746, K: 61, Size: 8539]
+block weight upper bound 445
+Separator [Seed: 5360, K: 33, Size: 8410]
+block weight upper bound 344
+Separator [Seed: 4083, K: 31, Size: 8373]
+block weight upper bound 275
+Separator [Seed: 3656, K: 49, Size: 8560]
+block weight upper bound 300
+Separator [Seed: 5727, K: 39, Size: 8617]
+block weight upper bound 394
+Separator [Seed: 4907, K: 24, Size: 8350]
+block weight upper bound 389
+Separator [Seed: 7404, K: 38, Size: 8393]
+block weight upper bound 1139
+Separator [Seed: 9314, K: 13, Size: 7718]
+block weight upper bound 202
+Separator [Seed: 2923, K: 46, Size: 8473]
+block weight upper bound 5963
+Separator [Seed: 6680, K: 2, Size: 3928]
+block weight upper bound 544
+Separator [Seed: 1619, K: 19, Size: 8657]
+block weight upper bound 1769
+Separator [Seed: 2459, K: 6, Size: 7652]
+block weight upper bound 779
+Separator [Seed: 4246, K: 13, Size: 7942]
+block weight upper bound 156
+Separator [Seed: 1602, K: 63, Size: 8560]
+block weight upper bound 382
+Separator [Seed: 3060, K: 34, Size: 8298]
+block weight upper bound 3176
+Separator [Seed: 9147, K: 4, Size: 5734]
+block weight upper bound 6770
+Separator [Seed: 4754, K: 2, Size: 3928]
+block weight upper bound 3022
+Separator [Seed: 6581, K: 5, Size: 7832]
+block weight upper bound 368
+Separator [Seed: 884, K: 38, Size: 8674]
+block weight upper bound 318
+Separator [Seed: 8329, K: 37, Size: 8525]
+block weight upper bound 472
+Separator [Seed: 8792, K: 24, Size: 8416]
+block weight upper bound 763
+Separator [Seed: 6452, K: 18, Size: 7888]
+block weight upper bound 530
+Separator [Seed: 3800, K: 21, Size: 8215]
+block weight upper bound 703
+Separator [Seed: 5771, K: 19, Size: 8250]
+block weight upper bound 217
+Separator [Seed: 1393, K: 48, Size: 8502]
+block weight upper bound 300
+Separator [Seed: 2910, K: 48, Size: 8511]
+
+Round:				38
+Best solution:			136
+Time:				28856.6
+
+
+Round:				39
+Best solution:			136
+Time:				29442
+
+
+Round:				40
+Best solution:			136
+Time:				29978.5
+
+
+Round:				41
+Best solution:			136
+Time:				30489.7
+
+block weight upper bound 6574
+Partition [Seed: 3720, K: 2]
+block weight upper bound 7328
+Partition [Seed: 1321, K: 2]
+block weight upper bound 7288
+Partition [Seed: 3217, K: 2]
+block weight upper bound 4707
+Partition [Seed: 5938, K: 2]
+block weight upper bound 6298
+Partition [Seed: 6711, K: 2]
+block weight upper bound 6302
+Partition [Seed: 7982, K: 2]
+block weight upper bound 6110
+Partition [Seed: 5850, K: 2]
+block weight upper bound 7183
+Partition [Seed: 6942, K: 2]
+block weight upper bound 6168
+Partition [Seed: 5578, K: 2]
+block weight upper bound 6435
+Partition [Seed: 2820, K: 2]
+block weight upper bound 7116
+Partition [Seed: 4326, K: 2]
+block weight upper bound 5647
+Partition [Seed: 2723, K: 2]
+block weight upper bound 6721
+Partition [Seed: 4913, K: 2]
+block weight upper bound 5306
+Partition [Seed: 2865, K: 2]
+block weight upper bound 6917
+Partition [Seed: 9873, K: 2]
+block weight upper bound 6890
+Partition [Seed: 4037, K: 2]
+block weight upper bound 5032
+Partition [Seed: 8737, K: 2]
+block weight upper bound 5312
+Partition [Seed: 2925, K: 2]
+block weight upper bound 5455
+Partition [Seed: 1809, K: 2]
+block weight upper bound 6656
+Partition [Seed: 5937, K: 2]
+block weight upper bound 7592
+Partition [Seed: 6881, K: 2]
+block weight upper bound 6792
+Partition [Seed: 9093, K: 2]
+block weight upper bound 5194
+Partition [Seed: 2604, K: 2]
+block weight upper bound 5535
+Partition [Seed: 9276, K: 2]
+block weight upper bound 6264
+Partition [Seed: 1733, K: 2]
+block weight upper bound 5472
+Partition [Seed: 5103, K: 2]
+block weight upper bound 5312
+Partition [Seed: 2925, K: 2]
+block weight upper bound 5455
+Partition [Seed: 1809, K: 2]
+block weight upper bound 6656
+Partition [Seed: 5937, K: 2]
+block weight upper bound 7592
+Partition [Seed: 6881, K: 2]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 597
+Separator [Seed: 1733, K: 21, Size: 8387]
+block weight upper bound 847
+Separator [Seed: 7642, K: 16, Size: 8293]
+block weight upper bound 244
+Separator [Seed: 6394, K: 49, Size: 8550]
+block weight upper bound 238
+Separator [Seed: 9105, K: 52, Size: 8538]
+block weight upper bound 279
+Separator [Seed: 3704, K: 42, Size: 8442]
+block weight upper bound 662
+Separator [Seed: 2177, K: 20, Size: 8057]
+block weight upper bound 220
+Separator [Seed: 7878, K: 64, Size: 8642]
+block weight upper bound 314
+Separator [Seed: 9575, K: 48, Size: 8564]
+block weight upper bound 311
+Separator [Seed: 1732, K: 43, Size: 8541]
+block weight upper bound 369
+Separator [Seed: 8900, K: 34, Size: 8413]
+block weight upper bound 713
+Separator [Seed: 2121, K: 18, Size: 8188]
+block weight upper bound 575
+Separator [Seed: 8273, K: 25, Size: 8387]
+block weight upper bound 313
+Separator [Seed: 8841, K: 47, Size: 8520]
+block weight upper bound 166
+Separator [Seed: 9386, K: 64, Size: 8663]
+block weight upper bound 2875
+Separator [Seed: 2292, K: 4, Size: 5904]
+block weight upper bound 1541
+Separator [Seed: 7398, K: 9, Size: 7180]
+block weight upper bound 296
+Separator [Seed: 2166, K: 46, Size: 8422]
+block weight upper bound 799
+Separator [Seed: 633, K: 14, Size: 8094]
+block weight upper bound 281
+Separator [Seed: 8113, K: 44, Size: 8688]
+block weight upper bound 285
+Separator [Seed: 7499, K: 53, Size: 8650]
+block weight upper bound 259
+Separator [Seed: 1882, K: 46, Size: 8632]
+block weight upper bound 669
+Separator [Seed: 8056, K: 19, Size: 7952]
+block weight upper bound 291
+Separator [Seed: 1867, K: 33, Size: 8430]
+block weight upper bound 238
+Separator [Seed: 778, K: 59, Size: 8675]
+block weight upper bound 676
+Separator [Seed: 4319, K: 21, Size: 8253]
+block weight upper bound 404
+Separator [Seed: 8930, K: 35, Size: 8391]
+block weight upper bound 933
+Separator [Seed: 9511, K: 10, Size: 7396]
+block weight upper bound 321
+Separator [Seed: 2223, K: 41, Size: 8681]
+block weight upper bound 446
+Separator [Seed: 4965, K: 32, Size: 8340]
+block weight upper bound 1017
+Separator [Seed: 1345, K: 12, Size: 7776]
+
+Round:				42
+Best solution:			136
+Time:				31555.6
+
+
+Round:				43
+Best solution:			136
+Time:				32364.4
+
+
+Round:				44
+Best solution:			136
+Time:				33176.7
+
+
+Round:				45
+Best solution:			136
+Time:				34018.8
+
+block weight upper bound 4921
+Partition [Seed: 3166, K: 2]
+block weight upper bound 6451
+Partition [Seed: 4437, K: 2]
+block weight upper bound 4932
+Partition [Seed: 9927, K: 2]
+block weight upper bound 6387
+Partition [Seed: 4190, K: 2]
+block weight upper bound 5179
+Partition [Seed: 2890, K: 2]
+block weight upper bound 5455
+Partition [Seed: 2501, K: 2]
+block weight upper bound 5082
+Partition [Seed: 899, K: 2]
+block weight upper bound 7045
+Partition [Seed: 7253, K: 2]
+block weight upper bound 6331
+Partition [Seed: 3537, K: 2]
+block weight upper bound 4836
+Partition [Seed: 1987, K: 2]
+block weight upper bound 6957
+Partition [Seed: 1629, K: 2]
+block weight upper bound 5405
+Partition [Seed: 4104, K: 2]
+block weight upper bound 6830
+Partition [Seed: 4482, K: 2]
+block weight upper bound 5132
+Partition [Seed: 4553, K: 2]
+block weight upper bound 6023
+Partition [Seed: 1843, K: 2]
+block weight upper bound 4961
+Partition [Seed: 751, K: 2]
+block weight upper bound 5651
+Partition [Seed: 1046, K: 2]
+block weight upper bound 6889
+Partition [Seed: 9001, K: 2]
+block weight upper bound 5613
+Partition [Seed: 7680, K: 2]
+block weight upper bound 5523
+Partition [Seed: 612, K: 2]
+block weight upper bound 5353
+Partition [Seed: 1375, K: 2]
+block weight upper bound 6158
+Partition [Seed: 8173, K: 2]
+block weight upper bound 6220
+Partition [Seed: 5013, K: 2]
+block weight upper bound 7587
+Partition [Seed: 6761, K: 2]
+block weight upper bound 5859
+Partition [Seed: 9999, K: 2]
+block weight upper bound 7489
+Partition [Seed: 4544, K: 2]
+block weight upper bound 7584
+Partition [Seed: 5317, K: 2]
+block weight upper bound 4589
+Partition [Seed: 3308, K: 2]
+block weight upper bound 5025
+Partition [Seed: 4525, K: 2]
+block weight upper bound 4792
+Partition [Seed: 8215, K: 2]
+block weight upper bound 5149
+Separator [Seed: 2537, K: 2, Size: 3928]
+block weight upper bound 4688
+Separator [Seed: 3050, K: 2, Size: 4033]
+block weight upper bound 6968
+Separator [Seed: 6653, K: 2, Size: 3928]
+block weight upper bound 6228
+Separator [Seed: 2591, K: 2, Size: 3928]
+block weight upper bound 6040
+Separator [Seed: 7446, K: 2, Size: 3928]
+block weight upper bound 6212
+Separator [Seed: 4953, K: 2, Size: 3928]
+block weight upper bound 7288
+Separator [Seed: 3217, K: 2, Size: 3928]
+block weight upper bound 4707
+Separator [Seed: 5938, K: 2, Size: 4014]
+block weight upper bound 6298
+Separator [Seed: 6711, K: 2, Size: 3928]
+block weight upper bound 6302
+Separator [Seed: 7982, K: 2, Size: 3928]
+block weight upper bound 6110
+Separator [Seed: 5850, K: 2, Size: 3928]
+block weight upper bound 7183
+Separator [Seed: 6942, K: 2, Size: 3928]
+block weight upper bound 6168
+Separator [Seed: 5578, K: 2, Size: 3928]
+block weight upper bound 6435
+Separator [Seed: 2820, K: 2, Size: 3928]
+block weight upper bound 7116
+Separator [Seed: 4326, K: 2, Size: 3928]
+block weight upper bound 5647
+Separator [Seed: 2723, K: 2, Size: 3928]
+block weight upper bound 6721
+Separator [Seed: 4913, K: 2, Size: 3928]
+block weight upper bound 5306
+Separator [Seed: 2865, K: 2, Size: 3928]
+block weight upper bound 6917
+Separator [Seed: 9873, K: 2, Size: 3928]
+block weight upper bound 6890
+Separator [Seed: 4037, K: 2, Size: 3928]
+block weight upper bound 5032
+Separator [Seed: 8737, K: 2, Size: 3928]
+block weight upper bound 5312
+Separator [Seed: 2925, K: 2, Size: 3928]
+block weight upper bound 5455
+Separator [Seed: 1809, K: 2, Size: 3928]
+block weight upper bound 6656
+Separator [Seed: 5937, K: 2, Size: 3928]
+block weight upper bound 7592
+Separator [Seed: 6881, K: 2, Size: 3928]
+block weight upper bound 6792
+Separator [Seed: 9093, K: 2, Size: 3928]
+block weight upper bound 5194
+Separator [Seed: 2604, K: 2, Size: 3928]
+block weight upper bound 5535
+Separator [Seed: 9276, K: 2, Size: 3928]
+block weight upper bound 6264
+Separator [Seed: 1733, K: 2, Size: 3928]
+block weight upper bound 5472
+Separator [Seed: 5103, K: 2, Size: 3928]
+block weight upper bound 506
+Separator [Seed: 2925, K: 21, Size: 8216]
+block weight upper bound 436
+Separator [Seed: 6134, K: 32, Size: 8369]
+block weight upper bound 175
+Separator [Seed: 6887, K: 57, Size: 8500]
+block weight upper bound 423
+Separator [Seed: 7714, K: 22, Size: 8301]
+block weight upper bound 434
+Separator [Seed: 9016, K: 30, Size: 8283]
+block weight upper bound 357
+Separator [Seed: 5490, K: 34, Size: 8412]
+block weight upper bound 263
+Separator [Seed: 5315, K: 41, Size: 8441]
+block weight upper bound 1074
+Separator [Seed: 2674, K: 13, Size: 7779]
+block weight upper bound 745
+Separator [Seed: 9110, K: 19, Size: 7976]
+block weight upper bound 466
+Separator [Seed: 8183, K: 21, Size: 8337]
+block weight upper bound 190
+Separator [Seed: 1346, K: 60, Size: 8625]
+block weight upper bound 471
+Separator [Seed: 2516, K: 28, Size: 8387]
+block weight upper bound 1010
+Separator [Seed: 619, K: 14, Size: 8395]
+block weight upper bound 656
+Separator [Seed: 7033, K: 23, Size: 8108]
+block weight upper bound 7133
+Separator [Seed: 8951, K: 2, Size: 3928]
+block weight upper bound 880
+Separator [Seed: 4598, K: 16, Size: 8633]
+block weight upper bound 761
+Separator [Seed: 8039, K: 20, Size: 8533]
+block weight upper bound 220
+Separator [Seed: 1470, K: 64, Size: 8633]
+block weight upper bound 382
+Separator [Seed: 4812, K: 24, Size: 8388]
+block weight upper bound 260
+Separator [Seed: 8972, K: 44, Size: 8461]
+block weight upper bound 263
+Separator [Seed: 2454, K: 45, Size: 8463]
+block weight upper bound 400
+Separator [Seed: 1861, K: 37, Size: 8493]
+block weight upper bound 437
+Separator [Seed: 6661, K: 30, Size: 8585]
+block weight upper bound 493
+Separator [Seed: 7331, K: 28, Size: 8339]
+block weight upper bound 721
+Separator [Seed: 2422, K: 21, Size: 8476]
+block weight upper bound 919
+Separator [Seed: 2909, K: 10, Size: 7804]
+block weight upper bound 239
+Separator [Seed: 2440, K: 49, Size: 8568]
+block weight upper bound 3020
+Separator [Seed: 692, K: 4, Size: 5717]
+block weight upper bound 2198
+Separator [Seed: 6209, K: 6, Size: 6758]
+block weight upper bound 788
+Separator [Seed: 2123, K: 18, Size: 8457]
+
+Round:				46
+Best solution:			136
+Time:				35141.3
+
+2299		Combine reduction	112	136	36019.2
+
+		Statistics
+==========================================
+Total time:			36022.2
+Evolution time:			36019.2
+Number of rounds:		46
+Number of repetitions:		2299
+
+Operator	Times selected	Improvements	Avg. time	Avg. improv
+--------------------------------------------------------------------------------
+Vertex cover	801		2		16.2504	12
+Node separator	751		0		16.4725	0
+Multiway	747		0		10.5493	0
+
+		Best
+==========================================
+Size:				136
+Time found:			36019.2
+Operator:			Combine reduction
+Repetition number:		2299
+Round number:			46
+
+writing independent set to results8/output_8_479.txt ... 
+checking solution ...
+done ...
+Independent set has size 136
